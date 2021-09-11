@@ -13,6 +13,8 @@
 		B027BC5D26DEC4750062B0CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B027BC5B26DEC4750062B0CB /* Main.storyboard */; };
 		B027BC5F26DEC4780062B0CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B027BC5E26DEC4780062B0CB /* Assets.xcassets */; };
 		B027BC6226DEC4780062B0CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B027BC6026DEC4780062B0CB /* LaunchScreen.storyboard */; };
+		B05449F326E154CA00B19405 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05449F226E154CA00B19405 /* TableViewCell.swift */; };
+		B05449F526E15F2100B19405 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05449F426E15F2100B19405 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B027BC5E26DEC4780062B0CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B027BC6126DEC4780062B0CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B027BC6326DEC4780062B0CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B05449F226E154CA00B19405 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		B05449F426E15F2100B19405 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				B027BC5E26DEC4780062B0CB /* Assets.xcassets */,
 				B027BC6026DEC4780062B0CB /* LaunchScreen.storyboard */,
 				B027BC6326DEC4780062B0CB /* Info.plist */,
+				B05449F226E154CA00B19405 /* TableViewCell.swift */,
+				B05449F426E15F2100B19405 /* DetailViewController.swift */,
 			);
 			path = 2tableview;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B027BC5A26DEC4750062B0CB /* ViewController.swift in Sources */,
+				B05449F326E154CA00B19405 /* TableViewCell.swift in Sources */,
+				B05449F526E15F2100B19405 /* DetailViewController.swift in Sources */,
 				B027BC5626DEC4750062B0CB /* AppDelegate.swift in Sources */,
 				B027BC5826DEC4750062B0CB /* SceneDelegate.swift in Sources */,
 			);
