@@ -11,9 +11,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     
     @IBOutlet weak var tableView: UITableView!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("Something here")
+
         tableView.delegate = self
         tableView.dataSource = self
         // Do any additional setup after loading the view.
